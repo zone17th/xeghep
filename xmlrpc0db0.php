@@ -8,7 +8,6 @@
 			<api name="Movable Type" blogID="1" preferred="false" apiLink="https://zone17th.github.io/xeghep/xmlrpc.php" />
 			<api name="MetaWeblog" blogID="1" preferred="false" apiLink="https://zone17th.github.io/xeghep/xmlrpc.php" />
 			<api name="Blogger" blogID="1" preferred="false" apiLink="https://zone17th.github.io/xeghep/xmlrpc.php" />
-				<api name="WP-API" blogID="1" preferred="false" apiLink="https://zone17th.github.io/xeghep/wp-json/" />
 			</apis>
 	</service>
 </rsd>
