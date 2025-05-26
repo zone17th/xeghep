@@ -1980,10 +1980,20 @@
     <main class="" id="main">
         <div class="content-area" id="content" role="main">
             <div class="banner has-hover" id="banner-1216710089">
-                <div class="banner-inner fill">
+                <div class="banner-inner fill" id="dis-l">
                     <div class="banner-bg fill">
                         <img alt="" class="bg attachment-original size-original taxi-banner" decoding="async" 
                         fetchpriority="high" height="644" src="wp-content/uploads/2024/04/taxxi-thuy.jpg" width="2000"/>
+                    </div>
+
+                    <div class="banner-layers container">
+                        <div class="fill banner-link"></div>
+                    </div>
+                </div>
+                <div class="banner-inner fill" id="dis-m">
+                    <div class="banner-bg fill">
+                        <img alt="" class="bg attachment-original size-original taxi-banner" decoding="async" 
+                        fetchpriority="high" height="644" src="wp-content/uploads/2024/04/taxxi-thuy-mini.jpg" width="2000"/>
                     </div>
 
                     <div class="banner-layers container">
@@ -2004,6 +2014,24 @@
                     @media (min-width: 550px) {
                         #banner-1216710089 {
                             padding-top: 35%;
+                        }
+                        #dis-l {
+                            display: block;
+                        }
+                        #dis-m {
+                            display: none;
+                        }
+                    }
+
+                    @media (max-width: 549px) {
+                        #banner-1216710089 {
+                            padding-top: 35%;
+                        }
+                        #dis-l {
+                            display: none;
+                        }
+                        #dis-m {
+                            display: block;
                         }
                     }
                 </style>
